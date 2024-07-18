@@ -1,10 +1,16 @@
 const express = require("express");
+const cors = require("cors");
 
 const Pizza = require('./models/pizzaModel')
 
 const app = express();
 const db = require("./db.js")
 app.use(express.json());
+app.use(cors({
+    origin:["https://mern-pizza-delivery.vercel.app/"],
+    methods:["GET","POST", "PUT", "DELETE"],
+    credentials: true
+  }))
 const path = require('path')
 const pizzasRoute = require('./routes/pizzasRoute')
 const userRoute = require('./routes/userRoute')
