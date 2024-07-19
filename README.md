@@ -3,5 +3,5 @@ This is a Full Stack (MERN) Pizza Delivery Application with admin panel develope
 Node JS for Runtime environment , Express JS for Backend Routing and Mongo DB for Database
 
 
-Heroku-link: https://athif-pizza-delivery.herokuapp.com <br>
-Heroku-link with admin can navigate to this link:https://athif-pizza-delivery.herokuapp.com/admin
+Heroku-link: https://mern-pizza-delivery.vercel.app/ <br>
+Heroku-link with admin can navigate to this link: https://mern-pizza-delivery.vercel.app/admin
